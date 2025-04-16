@@ -1,0 +1,85 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.calculator{
+    display: flex;
+    height: 500px;
+    width: 300px;
+    border: 15px double black;
+    background-color:rgb(245, 235, 223) ;
+    flex-direction: column;
+}
+.sunspace{
+    height: 10%;
+    width: 100%;
+    width: 100%;
+    
+}
+#sun{
+    height: 90%;
+    background-color: rgba(139, 143, 148, 0.693);
+    width: 45%;
+    margin-left: 53%;
+    margin-top: 3px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.itemsun{
+    border: 2px solid black;
+    height: 100%;
+    width: 25%;
+}
+#screen{
+    height: 15%;
+
+    background-color: rgb(171, 164, 164);
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 20px;
+    margin-top: 7px;
+    
+}
+input{
+    width: 100%;
+    height:100%;
+    background-color: rgb(171, 164, 164);
+}
+.keys{
+    height: 75%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20% ;
+   
+    padding-left: 27px;
+    padding-top: 15px;
+    text-align: center;
+}
+.number{
+    height: 80%;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 7px;
+    text-align: center; 
+}
+input{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.number:hover{
+    height: 85%;
+    width: 55%;
+}
+.keys input:hover{
+    background-color: wheat;   
+}

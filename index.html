@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basic.css">
+    <script src="basic.js"></script>
+    <title>CALCULATOR </title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="sunspace">
+            <div id="sun"> 
+            <div class="itemsun"></div>
+            <div class="itemsun"></div>
+            <div class="itemsun"></div>
+            <div class="itemsun"></div>    
+            </div>
+        </div>
+        <input type="text" id="screen" value="">
+        <div class="keys">
+            <div class="number"><input type="button" value="ON" onclick="on_or_off('on')" style="background-color: greenyellow;"></div>
+            <div class="number"><input type="button" value="OFF" onclick="on_or_off('off')" style="background-color: rgb(246, 44, 44);"></div>
+            <div class="number"><input type="button" value=""></div>
+            <div class="number"><input type="button" value="/"  style="background-color: rgb(252, 182, 20);"></div>
+            <div class="number"><input type="button" value="1"  onclick="display_key('1')"></div>
+            <div class="number"><input type="button" value="2" onclick="display_key('2')"></div>
+            <div class="number"><input type="button" value="3" onclick="display_key('3')"></div>
+            <div class="number"><input type="button" value="*"  style="background-color: rgb(252, 182, 20);"></div>
+            <div class="number"><input type="button" value="4"onclick="display_key('4')"></div>
+            <div class="number"><input type="button" value="5"onclick="display_key('5')"></div>
+            <div class="number"><input type="button" value="6"onclick="display_key('6')"></div>
+            <div class="number"><input type="button" value="-"onclick="operation('subb')"  style="background-color: rgb(252, 182, 20);"></div>
+            <div class="number"><input type="button" value="7"onclick="display_key('7')"></div>
+            <div class="number"><input type="button" value="8"onclick="display_key('8')"></div>
+            <div class="number"><input type="button" value="9"onclick="display_key('9')"></div>
+            <div class="number"><input type="button" value="+" onclick="operation('add')" style="background-color: rgb(252, 182, 20);"></div>
+            <div class="number"><input type="button" value="0"onclick="display_key('0')"></div>
+            <div class="number"><input type="button" value="."onclick="display_key('.')"></div>
+            <div class="number"><input type="button" value="AC" onclick="clear_screen()"></div>
+            <div class="number"><input type="button" value="=" onclick="show_result()" style="color: white; background-color: black;"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
